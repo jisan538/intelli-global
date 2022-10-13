@@ -1,0 +1,81 @@
+:root {
+    --main-color: #eb4a4c;
+}
+html {
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+    word-wrap: break-word;
+    font-weight: 400;
+    background-color: #000;
+    color: #ffffff;
+}
+.waves {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 128px;
+}
+.box {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box h1 {
+    font-size: 64px;
+    text-align: center;
+}
+.box p {
+    width: 600px;
+    opacity: 0.6;
+    text-align: center;
+}
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-name {
+    display: flex;
+    gap: 16px;
+    align-content: center;
+}
+.digital {
+    width: 320px;
+    padding: 24px;
+    background: rgba(184, 157, 255, 0.1);
+    backdrop-filter: blur(4px);
+    border-radius: 16px;
+}
+.digital p {
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 300;
+}
+.product-box {
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    width: 800px;
+}
