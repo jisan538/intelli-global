@@ -79,3 +79,11 @@ body {
     gap: 48px;
     width: 800px;
 }
+@media screen and (max-width: 1280px) {
+    .main-container {
+		padding: 72px;
+	}
+	.product-box {
+		margin-top: 80px;
+	}
+}
