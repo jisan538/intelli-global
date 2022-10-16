@@ -114,6 +114,9 @@ body {
     }
 }
 @media screen and (max-width: 768px) {
+    .info-box h1 {
+        font-size: 48px;
+    }
     .company-groups {
         display: flex;
         flex-direction: column;
